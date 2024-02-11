@@ -3,43 +3,44 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🪴 지식정원",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "https://tjfehdgns1.github.io/",
+    ignorePatterns: ["private", "templates", ".obsidian", "Excalidraw"],
     defaultDateType: "created",
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Schibsted Grotesk", //Font to use for headers
+        body: "Source Sans Pro", //Font for everything
+        code: "Hack Nerd Font Mono", //Font for inline and block quotes.
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#faf8f8", //page background
+          lightgray: "#e5e5e5", //borders
+          gray: "#b8b8b8", //graph links, heavier borders
+          darkgray: "#4e4e4e", //body text
+          dark: "#2b2b2b", //header text and icons
+          secondary: "#284b63", //link colour, current [[graph view|graph]] node
+          tertiary: "#84a59d", //hover states and visited [[graph view|graph]] nodes
+          highlight: "rgba(143, 159, 169, 0.15)", //internal link background, highlighted text, [[syntax highlighting|highlighted lines of code]]
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          //one dark https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua
+          light: "#282c34", // bg0
+          lightgray: "#848b98", // light_grey
+          gray: "#5c6370", // grey
+          darkgray: "#abb2bf", // fg
+          dark: "#c678dd", // purple
+          secondary: "#61afef", // blue
+          tertiary: "#e5c07b", // yellow
+          highlight: "rgba(143, 159, 169, 0.15)", //
         },
       },
     },
