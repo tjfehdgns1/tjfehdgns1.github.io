@@ -33,14 +33,14 @@ const config: QuartzConfig = {
         },
         darkMode: {
           //one dark https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua
-          light: "#282c34", //
-          lightgray: "#848b98", //
-          gray: "#c678dd", //
-          darkgray: "#a0a8b7", //
-          dark: "#abb2bf", //
-          secondary: "#98c379", //
-          tertiary: "#e5c07b", //
-          highlight: "rgba(143, 159, 169, 0.15)", //
+          light: "#1f2329", // bg0
+          lightgray: "#181b20", // bg_d
+          gray: "#535965", // grey
+          darkgray: "#ffffff", // white
+          dark: "#ffffff", //
+          secondary: "#4fa6ed", // blue
+          tertiary: "#e55561", // red
+          highlight: "rgba(24, 27, 32, 0.75)", // bg_d
         },
       },
     },
