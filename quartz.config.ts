@@ -35,10 +35,10 @@ const config: QuartzConfig = {
           //one dark https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua
           light: "#282c34", // bg0
           lightgray: "#848b98", // light_grey
-          gray: "#5c6370", // grey
-          darkgray: "#abb2bf", // fg
-          dark: "#c678dd", // purple
-          secondary: "#61afef", // blue
+          gray: "#c678dd", // purple
+          darkgray: "#e5c07b", // yellow
+          dark: "#abb2bf", // fg
+          secondary: "#98c379", // green
           tertiary: "#e5c07b", // yellow
           highlight: "rgba(143, 159, 169, 0.15)", //
         },
